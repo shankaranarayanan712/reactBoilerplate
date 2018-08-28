@@ -26,7 +26,7 @@ export default class RxNtModal extends React.Component {
                 <Modal.Body>
                     <h4>Text in a modal</h4>
                     <p>
-                        Im Rxnt Modal
+                        Im Example Modal
                     </p>
 
                     <h4>Popover in a modal</h4>

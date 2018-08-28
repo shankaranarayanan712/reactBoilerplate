@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../src/containers/RxNT_Logo_White.png';
 import '../src/containers/App.css';
 import Login from './containers/login/login-container';
 import CreatePatient from './containers/create-patient/create-patient-container';
@@ -18,9 +17,6 @@ class App extends Component {
       <HashRouter basename="/">
         <div>
             <div>
-            <header className="App-header">
-              <img src={logo} className="App-Header-Logo" alt="logo" />
-            </header>
               <div>
                 <Redirect to={'/login'} />
                 <Route exact path="/login" render={(props) => ( <Login routerProps={props}/> )} />

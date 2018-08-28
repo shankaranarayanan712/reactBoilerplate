@@ -2,7 +2,6 @@
   "name": "react-boilerplate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://RxNT.github.io/",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
